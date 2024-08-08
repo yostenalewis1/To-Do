@@ -1,0 +1,175 @@
+{
+  "users": [
+    {
+      "id": "eb76",
+      "username": "yostenalewis",
+      "password": "ffff"
+    },
+    {
+      "id": "ade7",
+      "username": "yostenalewis",
+      "password": "123456"
+    },
+    {
+      "id": "7ce6",
+      "username": "Y.louis2",
+      "password": "010"
+    },
+    {
+      "id": "7a84",
+      "username": "yostenalewis",
+      "password": "jjjjjjjj"
+    },
+    {
+      "id": "9b9a",
+      "username": "dddddd",
+      "password": "ddddddddd"
+    },
+    {
+      "id": "23db",
+      "username": " yostena",
+      "password": "123456d"
+    },
+    {
+      "id": "639c",
+      "username": "klara",
+      "password": "123456te"
+    },
+    {
+      "id": "0eaf",
+      "username": "klara2",
+      "password": "123tena"
+    },
+    {
+      "id": "02f1",
+      "username": "koko",
+      "password": "123456ko"
+    },
+    {
+      "id": "6289",
+      "username": "tona",
+      "password": "123456tona"
+    },
+    {
+      "id": "2232",
+      "username": "tona2",
+      "password": "tona22"
+    },
+    {
+      "id": "8ee8",
+      "username": "koko",
+      "password": "koko123456"
+    },
+    {
+      "id": "edbf",
+      "username": "yostenalewis",
+      "password": "123456t"
+    },
+    {
+      "id": "d642",
+      "username": "koko",
+      "password": "123456koko"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "fe97",
+      "name": "task1",
+      "description": "des",
+      "priority": "medium",
+      "dueDate": "2024-07-29",
+      "status": "completed",
+      "userId": "7ce6"
+    },
+    {
+      "id": "7d40",
+      "name": "task5",
+      "description": "ddddddddddddddd",
+      "priority": "high",
+      "dueDate": "2024-08-12",
+      "status": "completed",
+      "userId": "6289"
+    },
+    {
+      "id": "31a7",
+      "name": "med1",
+      "description": "des",
+      "priority": "medium",
+      "dueDate": "2006-01-02",
+      "status": "completed",
+      "userId": "6289"
+    },
+    {
+      "id": "ac4a",
+      "name": "Medicine 1",
+      "description": "des",
+      "priority": "medium",
+      "dueDate": "2019-12-12",
+      "status": "pending",
+      "userId": "6289"
+    },
+    {
+      "id": "79ba",
+      "name": "Medic",
+      "description": "des",
+      "priority": "low",
+      "dueDate": "2002-02-23",
+      "status": "pending",
+      "userId": "6289"
+    },
+    {
+      "id": "1e4b",
+      "name": "med777777777777",
+      "description": "djendvvvvvv77777777",
+      "priority": "medium",
+      "dueDate": "1991-02-21",
+      "status": "pending",
+      "userId": "6289"
+    },
+    {
+      "id": "90ba",
+      "name": "med1",
+      "description": "djend",
+      "priority": "medium",
+      "dueDate": "2024-07-09",
+      "status": "completed",
+      "userId": "8ee8"
+    },
+    {
+      "id": "ddc0",
+      "name": "med1",
+      "description": "djendvvvvvv",
+      "priority": "medium",
+      "dueDate": "2024-07-09",
+      "status": "completed",
+      "userId": "8ee8"
+    },
+    {
+      "id": "edb4",
+      "name": "med1",
+      "description": "djendvvvvvv",
+      "priority": "medium",
+      "dueDate": "2024-07-09",
+      "status": "pending",
+      "userId": "8ee8"
+    },
+    {
+      "id": "fdc9",
+      "name": "med1",
+      "description": "djendvvvvvv",
+      "priority": "medium",
+      "dueDate": "2024-07-31",
+      "status": "completed",
+      "userId": "8ee8"
+    },
+    {
+      "id": "676e",
+      "name": "med15222222",
+      "description": "djendvvvvvv",
+      "priority": "high",
+      "dueDate": "2024-08-22",
+      "status": "pending",
+      "userId": "8ee8"
+    }
+  ]
+}
