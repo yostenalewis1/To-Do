@@ -19,8 +19,8 @@ const TasksPage = () => {
  
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
+    <div className="min-h-screen bg-[#E9F5DB] p-6">
+      <div className="max-w-4xl mx-auto bg-[#CFE1B9] shadow-md rounded-lg p-6">
         <TaskForm fetchTasks={fetchTasks} />
         <TaskList tasks={tasks} fetchTasks={fetchTasks} />
       </div>

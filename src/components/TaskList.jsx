@@ -98,11 +98,13 @@ const TaskList = ({ tasks, fetchTasks }) => {
           <option value="dueDate">Due Date</option>
           <option value="priority">Priority</option>
         </select>
-      </div>
+      </div>abc088
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {filteredTasks.map(task => (
-          <div key={task.id} className="shadow-md rounded-lg p-4 border border-gray-200">
+          <div key={task.id} className={`shadow-md  ${task.status === 'completed' ? 'bg-[#a8db8d]' : 'bg-[#b8d0a9]'}
+          
+          rounded-lg p-4 border border-gray-200`} >
             {editingTaskId === task.id ? (
               // Edit form
               <div>
@@ -181,7 +183,7 @@ const TaskList = ({ tasks, fetchTasks }) => {
                 <div className="flex justify-between mt-4 gap-3">
                   <button 
                     onClick={() => handleToggleStatus(task)} 
-                    className="bg-gray-400 hover:bg-blue-700 text-white py-1 px-3 rounded-lg"
+                    className="bg-gray-400 hover:bg-[#4b643d] text-white py-1 px-3 rounded-lg"
                   >
                     {task.status === 'pending' ? 'Mark as Completed' : 'Mark as Pending'}
                   </button>
@@ -193,7 +195,7 @@ const TaskList = ({ tasks, fetchTasks }) => {
                   </button>
                   <button 
                     onClick={() => handleDelete(task)} 
-                    className="bg-red-500 hover:bg-red-700 text-white py-1 px-3 rounded-lg"
+                    className="bg-[#de492c] hover:bg-red-700 text-white py-1 px-3 rounded-lg"
                   >
                     Delete
                   </button>

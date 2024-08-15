@@ -36,8 +36,8 @@ const TaskForm = ({ fetchTasks }) => {
   };
  
   return (
-    <form onSubmit={formik.handleSubmit} className="bg-gray-300 shadow-md rounded-lg p-4 border border-gray-200  ">
-      <h2 className="text-red-800 font-bold text-lg mb-4 font-serif">Your To-Do list</h2> 
+    <form onSubmit={formik.handleSubmit} className="bg-[#B5C99A] shadow-md rounded-lg p-4 border border-gray-200  ">
+      <h2 className=" text-center font-bold text-xl mb-4 font-serif">Your To-Do list</h2> 
       <div className='grid md:grid-cols-3 sm:grid-cols-2'>
       <div className="mb-3">
         <label className="block text-gray-700 text-md font-serif">Name</label>
@@ -94,7 +94,7 @@ const TaskForm = ({ fetchTasks }) => {
         </button>
         <button
           onClick={handleLogout}
-          className="mt-2 bg-red-500 hover:bg-red-700 text-white py-2 px-5 rounded-lg text-sm"
+          className="mt-2 bg-[#de492c] hover:bg-red-700 text-white py-2 px-5 rounded-lg text-sm"
         >
           Logout
         </button> 

@@ -132,7 +132,7 @@
       "description": "djend",
       "priority": "medium",
       "dueDate": "2024-07-09",
-      "status": "completed",
+      "status": "pending",
       "userId": "8ee8"
     },
     {
@@ -141,7 +141,7 @@
       "description": "djendvvvvvv",
       "priority": "medium",
       "dueDate": "2024-07-09",
-      "status": "completed",
+      "status": "pending",
       "userId": "8ee8"
     },
     {
@@ -150,15 +150,6 @@
       "description": "djendvvvvvv",
       "priority": "medium",
       "dueDate": "2024-07-09",
-      "status": "pending",
-      "userId": "8ee8"
-    },
-    {
-      "id": "fdc9",
-      "name": "med1",
-      "description": "djendvvvvvv",
-      "priority": "medium",
-      "dueDate": "2024-07-31",
       "status": "completed",
       "userId": "8ee8"
     },
@@ -168,8 +159,17 @@
       "description": "djendvvvvvv",
       "priority": "high",
       "dueDate": "2024-08-22",
-      "status": "pending",
+      "status": "completed",
       "userId": "8ee8"
+    },
+    {
+      "id": "2ba6",
+      "name": "med1",
+      "description": "djendvvvvvv",
+      "priority": "medium",
+      "dueDate": "2024-07-31",
+      "status": "pending",
+      "userId": "d642"
     }
   ]
 }
